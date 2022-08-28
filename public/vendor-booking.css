@@ -1,0 +1,306 @@
+.register-btn, .login-btn {
+    cursor: pointer;
+}
+#vendorRegisterModal .reg-btn:disabled {
+    /*cursor: not-allowed;*/
+    /*pointer-events: all ;*/
+}
+
+#star_with_stock{
+     display: block!important;
+     width: 20px!important;
+     height: 20px!important;
+    margin-right: 10px;
+}
+
+
+/* ---------------booking and report------------- */
+
+#booking-reports-page .title-part{
+    margin-bottom: 20px;
+}
+
+.report-table .table-row{
+    align-items: start;
+    display: grid;
+    grid-template-columns: 10% 20% 13% 13% 13% 13% 11%;
+    padding-right: 10px;
+    gap: 0;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.report-table .table-header{
+    margin: 0;
+}
+
+#booking-reports-page select{
+    background-image: url("../images/arrow-down-blue.png");
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    cursor: pointer;
+}
+
+#booking-reports-page .btn-block{
+    display: grid;
+    grid-template-columns: 15% 15% 17% 28% 16%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#booking-reports-page .table-row h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+#booking-reports-page .table-row figure{
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 100%;
+    min-height: 114px;
+    margin: 0;
+}
+
+#booking-reports-page .table-row figure img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#booking-reports-page .table-body .table-row>div{
+    padding: 15px 0;
+}
+
+.report-table h3{
+    color: var(--blue);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.report-table h4{
+    color: var(--black);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.report-table h5{
+    color: #1D52B9;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.report-table .date{
+    color: var(--input-color);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.status{
+    color: var(--blue);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.status.waiting{
+    color: var(--orange);
+}
+
+.status.cancel{
+    color: var(--btn-grey);
+}
+
+.report-table .table-body .table-outer-row{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.report-table .table-header{
+    margin-bottom: 10px;
+}
+
+.table-block.report-table{
+    margin-bottom: 30px;
+}
+
+#booking-reports-page .pagination {
+    margin-bottom: 80px;
+}
+
+.information-table{
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    margin: 20px 15px 0 15px;
+    padding: 25px;
+}
+
+#booking-reports-page .information-table .title-part{
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 30px;
+}
+
+.information-table h2{
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+
+}
+
+.information-table .nav-tabs{
+    border-bottom: 0;
+    padding-left: 20px;
+}
+
+.information-table .nav-tabs .nav-link{
+    border: 1px solid var(--gray);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: rgba(17, 17, 17, .5);
+    padding: 8px 16px;
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.information-table .nav-tabs .nav-link.active{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: var(--white);
+    padding: 8px 16px;
+}
+
+.information-table .tab-content{
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.info-block>div,
+.price-block{
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.price-block{
+    border-bottom: 0;
+    background-color: var(--lightblue);
+    margin: 0 -15px;
+    padding: 15px;
+}
+
+.info-block h3,
+.price-block h3,
+.price-block span{
+    color: var(--black);
+    font-family: "lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.info-block span{
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-btn-block{
+    border-top: 1px sold var(--gray);
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0 25px 0;
+    gap: 30px;
+}
+
+.info-btn-block button.btn-grey,
+.info-btn-block button.btn-blue{
+    display: block;
+    padding: 10px 20px;
+    min-width: 210px;
+    text-align: center;
+}
+
+.contact-input-part label{
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    color: var(--input-color);
+    height: 40px;
+    padding: 10px 52px;
+    width: 550px;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "lato", sans-serif;
+}
+
+.contact-information-table .contact-input-part{
+    padding-bottom: 10px;
+}
+
+.contact-input-part>div{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact-input-part input{
+    position: absolute;
+    left: 16px;
+}
+
+.contact-input-part input:checked + label{
+    background-color: rgba(37, 118, 236, .05);
+}
+
+.contact-input-part input:checked + label:after{
+    display: none;
+}
+
+.contact-input-part{
+    border-bottom: 1px solid var(--gray);
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1266px !important;
+    }
+
+}
+
+@media (max-width: 1200px){
+    /* -------------booking-page------------ */
+
+    .details-part{
+        width: 55%;
+    }
+
+    .info-part{
+        width: 43%;
+    }
+}

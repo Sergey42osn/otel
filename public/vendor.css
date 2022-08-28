@@ -1,0 +1,7 @@
+.register-btn, .login-btn {
+    cursor: pointer;
+}
+#vendorRegisterModal .reg-btn:disabled {
+    cursor: not-allowed!important;
+    pointer-events: all !important;
+}

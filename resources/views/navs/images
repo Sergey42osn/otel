@@ -1,0 +1,114 @@
+@extends("layouts.vendor")
+
+@section('styles')
+    <link rel="stylesheet" href="{{asset('/public/blog/css/style.css')}}">
+@endsection
+
+@section('contents')
+    <section class="banner-section">
+        <div class="banner-part" style="background-image:url({{asset('images/chris-karidis-QXW1YEMhq_4-unsplash.png')}})"></div>
+    </section>
+    <div class="container">
+        <section class="breadcrumb-block">
+            <span>Homepage</span>
+            <span>Blog</span>
+            <span>Places</span>
+            <span>The world's most spectacular treehouses</span>
+        </section>
+    </div>
+    <section>
+        <div class="container">
+            <div class="min-container">
+                <div class="title-part">
+                    <h1>The world's most spectacular treehouses</h1>
+                    <p>
+                        <span>Date</span>
+                        <span>08.04.2022</span>
+                    </p>
+                </div>
+                <div class="text-block">
+                    <p>New York is rightfully considered one of the most fashionable cities in the world. Twice a year, crowds of people flock to the City of the Big Apple for Fashion Week, during which brands showcase the upcoming season's products to international buyers and journalists. Fly into New York during Fashion Week and see the city in all its vibrant glory. You may even be able to meet some of the famous fashionistas while you're here. Make sure you follow the fashion by booking a stay at one of New York's trendiest hotels.</p>
+                </div>
+                <div class="text-block">
+                    <h2>The world's most spectacular treehouses</h2>
+                    <figure>
+                        <img src="/images/143808571.png" alt="blog img">
+                    </figure>
+                </div>
+                <div class="text-block">
+                    <h2>The world's most spectacular treehouses</h2>
+                    <p>New York is rightfully considered one of the most fashionable cities in the world. Twice a year, crowds of people flock to the City of the Big Apple for Fashion Week, during which brands showcase the upcoming season's products to international buyers and journalists. Fly into New York during Fashion Week and see the city in all its vibrant glory. You may even be able to meet some of the famous fashionistas while you're here. Make sure you follow the fashion by booking a stay at one of New York's trendiest hotels.
+                        New York is rightfully considered one of the most fashionable cities in the world. Twice a year, crowds of people flock to the City of the Big Apple for Fashion Week, during which brands showcase the upcoming season's products to international buyers and journalists. Fly into New York during Fashion Week and see the city in all its vibrant glory. You may even be able to meet some of the famous fashionistas while you're here. Make sure you follow the fashion by booking a stay at one of New York's trendiest hotels.
+                    </p>
+                </div>
+                <div class="text-block">
+                    <p>New York is rightfully considered one of the most fashionable cities in the world. Twice a year, crowds of people flock to the City of the Big Apple for Fashion Week, during which brands showcase the upcoming season's products to international buyers and journalists. Fly into New York during Fashion Week and see the city in all its vibrant glory. You may even be able to meet some of the famous fashionistas while you're here. Make sure you follow the fashion by booking a stay at one of New York's trendiest hotels.
+                        New York is rightfully considered one of the most fashionable cities in the world.
+                    </p>
+                    <figure>
+                        <img src="blog/images/149523110.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recommended-section">
+        <div class="container">
+            <title-part>
+                <h2>Recommended</h2>
+            </title-part>
+            <div class="blog-block d-flex owl-carousel" id="blog-block">
+                <div class="blog-block-item">
+                    <a href="">
+                        <figure>
+                            <img class="hover-img" src="/blog/images/150239829.png" alt="blog-img">
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <h3>The most spectacular houses in the world on the trees</h3>
+                    </a>
+                    <span>Date</span>
+                    <span>08.04.2022</span>
+                </div>
+                <div class="blog-block-item">
+                    <a href="">
+                        <figure>
+                            dbsajdjsabdsa
+{{--                            <img class="hover-img" src="blog/images/150239829.png" alt="blog-img">--}}
+                            <img class="hover-img" src="./public/blog/images/150239829.png" alt="blog-img">
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <h3>The most spectacular houses in the world on the trees</h3>
+                    </a>
+                    <span>Date</span>
+                    <span>08.04.2022</span>
+                </div>
+                <div class="blog-block-item">
+                    <a href="">
+                        <figure>
+                            <img class="hover-img" src="/blog/images/150239829.png" alt="blog-img">
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <h3>The most spectacular houses in the world on the trees</h3>
+                    </a>
+                    <span>Date</span>
+                    <span>08.04.2022</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search-section">
+        <div class="search-text-block">
+            <h2>Search by posts</h2>
+            <h3>Enter city, country, keyword, etc.</h3>
+            <div class="blog-search-form">
+                <form action="" class="blog-search-form">
+                    <input type="mail" placeholder="Search">
+                    <button class="red-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+@endsection

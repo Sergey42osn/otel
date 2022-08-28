@@ -1,0 +1,58 @@
+<?php
+
+return [
+    'title' => 'Room - planing and prices',
+    'services_title' => 'Services',
+    'wrong_info' => 'Something went wrong. Please try again',
+    'rooms_choose_title' => 'Choose',
+	'choose' => array(
+	    'title' => 'Choose',
+	    'room_type' => 'Room Type',
+	    'room_name' => 'Choose room name',
+	    'number_of_rooms' => 'Number Of Rooms Of the Selected Type',
+	),
+    'beds' => array(
+        'beds' => 'Beds',
+        'single_bed' => 'Single Bed',
+        'sofa_bed' => 'Sofa Bed',
+        'double_bed' => 'Double Bed',
+        'wide_bed' => 'Wide Bed',
+        'additional_bed' => 'Additional Bed',
+        'futon' => 'Futon',
+        'guest_count' => 'How Many Guests Can Stay In This Room?',
+        'select_placeholder' => 'Select the number of beds',
+        'guest_count_show' => 'Maximum number of guests'
+    ),
+    'additional' => array(
+        'title' => 'Additional Beds',
+        'quiz' => 'Can you provide extra beds',
+
+    ),
+    'price_title' => 'Base price per night',
+    'price' => 'Price',
+    'room_size_title' => 'Room Size',
+    'room_size' => 'Room Size (Not Abligatory)',
+    'number_of_beds' => 'Select the number of beds',
+    'btn_delete' => "Delete",
+    'currency' => "RUB",
+    'choose' => "Choose",
+    'area' => 'Area of the apartment/apartment sq.m. (optional)',
+    'bathroom_count' => 'How many bathrooms do you have?',
+    'about_propterty' => 'About the property',
+    'room_no' => 'How many rooms do you have?',
+    'quantity' => 'Quantity',
+    'enter_object_type' => 'Enter object type',
+    'enter_room_title' => 'Room title',
+    'room_title' => 'Object title',
+    'choose_title' => 'Choose',
+    'type_crm' => 'Type from crm',
+    'not_found' => 'No rooms found',
+    'm2'=>'m<sup>2</sup>',
+    'prepayment' => '100% payment on check in',
+    'cancel_until' => 'You can cancel the booking until',
+    'withoutPenalty' => 'without penalty.',
+    'penaltyAmount' => 'After that, the penalty will be ',
+    'newpenaltyAmount' =>'After the cancellation of the penalty',
+    'rub' => 'Rub.',
+    'cancelPenalty' => 'If you cancel your booking, you will be charged a penalty of '
+];

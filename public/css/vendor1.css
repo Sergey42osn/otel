@@ -1,0 +1,355 @@
+.register-btn, .login-btn {
+    cursor: pointer;
+}
+#vendorRegisterModal .reg-btn:disabled {
+    /*cursor: not-allowed;*/
+    /*pointer-events: all ;*/
+}
+
+#star_with_stock{
+     display: block!important;
+     width: 20px!important;
+     height: 20px!important;
+    margin-right: 10px;
+}
+.star-stock-label:after {
+    display: none!important;
+}
+
+
+.report-table h3{
+    color: var(--blue);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.report-table h4{
+    color: var(--black);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.report-table h5{
+    color: #1D52B9;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.report-table .date{
+    color: var(--input-color);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.status{
+    color: var(--blue);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.status.waiting{
+    color: var(--orange);
+}
+
+.status.cancel{
+    color: var(--btn-grey);
+}
+
+.report-table .table-body .table-outer-row{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.report-table .table-header{
+    margin-bottom: 10px;
+}
+
+.table-block.report-table{
+    margin-bottom: 30px;
+}
+
+#review-page .report-table .table-row{
+    grid-template-columns: 18% 58% 24%;
+}
+
+#review-page .report-table .table-body .table-row{
+    /* box-shadow: 0 3px 6px rgb(0 0 0 / 16%); */
+    margin-bottom: 10px;
+}
+
+#review-page .report-table .table-row div:last-child{
+    text-align: right;
+}
+
+#review-page .report-table .table-row div:last-child h2{
+    margin-right: 35px;
+}
+
+#review-page .table-body .table-row>div{
+    padding: 15px 20px;
+}
+
+#review-page .btn-box{
+    align-items: flex-end;
+}
+
+#review-page .table-body .btn-blue{
+    max-width: unset;
+    white-space: nowrap;
+    width: unset;
+}
+
+#review-page figure{
+    width: 162px;
+    margin-bottom: 0;
+    min-height: 112px;
+    height: 112px;
+    border-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#review-page figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#review-page .report-table h3{
+    font-size: 16px;
+    text-align: left;
+    max-width: 300px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#review-page .collapse,
+#review-page .collapsing{
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    margin: 20px 15px;
+    padding: 10px 25px;
+}
+
+.opening-row{
+    grid-template-columns: 27% 53% 10%;
+    display: grid;
+    border-bottom: 1px solid var(--gray);
+    padding: 20px 0;
+    grid-gap: 5%;
+}
+
+.opening-body .opening-row:last-child{
+    border-bottom: 0;
+}
+
+#review-page h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.table-body .collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height .3s ease;
+    margin: 0;
+    padding: 0;
+
+}
+
+.user-image{
+    background-color: #EA6B6B;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    margin-right: 15px;
+    width: 40px;
+}
+
+.user-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.user-image-name-box,
+.id-block{
+    margin-bottom: 15px;
+}
+
+.opening-body .date-box span{
+    display: block;
+}
+
+.opening-body .user-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.opening-body .date-box p:first-child{
+    border-right: 1px solid var(--gray);
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.opening-body .date-box p span:first-child{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.opening-body .date-box .date{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.review-text-block{
+    background-color: var(--lightblue);
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.review-text-block p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.opening-body .btn-block{
+    justify-content: flex-end;
+}
+
+.opening-body .btn-block .btn{
+    margin-right: 24px;
+    width: unset;
+    max-width: unset;
+    white-space: nowrap;
+}
+
+.btn.btn-white:hover{
+    background-color: var(--blue-hover);
+    color: var(--white);
+}
+
+.arrow-bottom{
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.arrow-bottom:after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 12px solid var(--lightblue);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display:block;
+}
+
+.review-writing-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.review-writing-form textarea{
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+.answer-text-block{
+    background-color: var(--gray);
+}
+
+#review-page .pagination{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#review-page .pagination nav div:nth-of-type(2),
+#review-page .pagination nav{
+    margin-bottom: 0;
+}
+
+.report-table .table-row{
+    align-items: start;
+    display: grid;
+    grid-template-columns: 10% 20% 13% 13% 13% 13% 11%;
+    padding-right: 10px;
+    gap: 0;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.report-table .table-header{
+    margin: 0;
+}
+
+
+.language-block .select2-container--default .select2-search--inline textarea.select2-search__field{
+    width: 100%!important;
+    border: none!important;
+}
+#review-page .table-body .report{
+    padding: 5px!important;
+}
+#review-page .answer-text-block{
+    background-color: var(--gray);
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1266px !important;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+
+    .each-product-block figure {
+        width: 170px;
+        min-width: 170px;
+    }
+
+    .each-product-description-block {
+        width: calc(100% - 388px);
+    }
+
+    /* -------------booking-page------------ */
+    .details-part {
+        width: 55%;
+    }
+
+    .info-part {
+        width: 43%;
+    }
+}

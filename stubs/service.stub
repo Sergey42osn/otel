@@ -1,0 +1,7 @@
+namespace App\Services;
+
+
+class {{class}}
+{
+
+}

@@ -1,0 +1,172 @@
+#finance-document-page .finance-icon {
+    background: url("../images/document-blue.png") center no-repeat;
+}
+.finance-icon {
+    background: url("../images/document-black.png") center no-repeat;
+}
+#finance-document-page .finance-menu-item span{
+    color: var(--blue);
+}
+
+#review-page .review-icon {
+    background: url("../images/review-icon-blue.png") center no-repeat;
+}
+.review-icon {
+    background: url("../images/review-icon-black.png") center no-repeat;
+}
+#review-page .review-menu-item span{
+    color: var(--blue);
+}
+.logoutBtn{
+    margin: 0!important;
+    border: none !important;
+    padding-left: 0!important;
+    color: #000!important;
+    font-weight: 800!important;
+}
+.logoutBtn span{
+    padding: 0!important;
+    text-align: initial;
+    width: 100%;
+}
+
+.name-change-box button{
+    background-color: var(--white);
+    border:1px solid var(--gray);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 8px 16px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.name-change-box button.active{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.name-block .name-btn-group{
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.name-change-box{
+    position: relative;
+}
+.name-change-box input{
+    display: none;
+}
+
+.name-change-box input.active{
+    display: inline-block;
+    color: #000;
+    font-weight: 300;
+}
+.name-change-box input{
+    color: #000;
+    font-weight: 300;
+}
+
+#finance-document-page .calendar-input-box {
+    position: relative;
+}
+
+#finance-document-page .calendar-input-box input,
+#finance-document-page .people-input-box input{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
+#calendar-input-box input {
+    color: transparent;
+    cursor: pointer;
+}
+.calendar-input-box.opened .chev {
+    transform: rotate(180deg);
+    top: 38%;
+}
+.home-title-part input,
+.calendar-input-box,
+.people-input-box {
+    height: 50px;
+    width: 100%;
+}
+
+.calendar-input-box,
+.people-input-box {
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 16px) center;
+    position: relative;
+    border-radius: 6px;
+}
+
+#product-inner-feed .people-input-box,
+#product-inner-feed .calendar-input-box {
+    background-image: none;
+}
+#finance-document-page .calendar-input-box div {
+    background-image: url("../images/calendar.png");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    margin: 7px 16px 7px 0;
+    padding-left: 52px;
+    height: 22px;
+    width: 150px;
+}
+
+#product-feed .single-calendar-input-box div input {
+    background-image: url("../images/calendar.png");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    padding: 7px 16px 7px 48px;
+    cursor: pointer;
+}
+
+.single-calendar-input-box div:first-child {
+    margin-bottom: 20px;
+}
+.calendar-input-box div:first-of-type {
+    border-right: 1px solid var(--blue);
+}
+.calendar-input-box {
+    background-color: var(--white);
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    padding-right: 16px;
+}
+.calendar-input-box span {
+    color: var(--input-color);
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.daterangepicker.show-calendar td.disabled,
+.daterangepicker.show-calendar option.disabled {
+    text-decoration: none;
+}
+
+
+#finance-document-page .calendar-input-box {
+    margin-right: 40px;
+    width: auto;
+}
+
+#finance-document-page .btn {
+    white-space: nowrap;
+    width: unset;
+}
+#finance-document-page .btn-blue a {
+   color: #fff!important;
+}
+/*.condition-box-row h3:before {*/
+/*    background: url("../images/calendar.png") center no-repeat;*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    height: 24px;*/
+/*    width: 24px;*/
+/*    margin-right: 16px;*/
+/*}*/

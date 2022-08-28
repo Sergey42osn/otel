@@ -1,0 +1,28 @@
+/* Styles go here */
+
+.ng-invalid {
+  border-color: red;
+}
+
+.input-container {
+  position: relative;
+  padding-top: 100px; 
+  padding-bottom: 15px; 
+  margin-top: 20px; 
+  margin-left: 150px; 
+  height: 166px; 
+  background: #eee; 
+  overflow: scroll;
+  width: 300px;
+  z-index: 1050;
+  float: left;
+}
+
+.input-container + .input-container {
+  margin-left: 20px;
+}
+
+.input-container-title {
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,314 @@
+/* ---------------finance and documents------------- */
+
+#finance-document-page .calendar-input-box{
+    background-image: none;
+}
+
+#finance-document-page .calendar-input-box div{
+    padding: 0px 16px;
+    margin: 0;
+    background-image: none;
+    width: unset;
+}
+
+#finance-document-page .calendar-input-box span{
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#finance-document-page .report-table .table-row{
+    grid-template-columns: 50% 36% 14%;
+    padding: 15px 10px;
+}
+
+#finance-document-page .title-part,
+.date-block{
+    margin-bottom: 20px;
+}
+
+#finance-document-page  .date-block input{
+    border: 1px solid var(--blue);
+    height: 40px;
+    width: 256px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-image: url("../images/arrow-down-blue.png");
+    background-position-x: calc(100% - 16px);
+    background-position-y: 50%;
+}
+
+.document-box{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 23px;
+}
+
+#finance-document-page h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#finance-document-page .name-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#finance-document-page .table-body .btn-blue{
+    width: unset;
+    min-width: unset;
+    max-width: unset;
+}
+
+#finance-document-page .calendar-input-box{
+    margin-right: 40px;
+    width: 256px;
+}
+
+#finance-document-page .btn{
+    white-space: nowrap;
+    width: unset;
+}
+#finance-document-page .table-row h2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.container .btn{
+    background-color: var(--white);
+    border-radius: 6px;
+    border:1px solid var(--blue);
+    color: var(--blue);
+    font: 500 16px/20px "lato", sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    text-transform: capitalize;
+    padding: 10px 50px;
+    min-width: 150px;
+}
+
+.btn.btn-back i{
+    background: url("../images/Icon-arrow-down.png") no-repeat center;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 4px;
+}
+
+.btn.btn-back:hover i{
+    background: url("../images/Icon-arrow-left-white.png") no-repeat center;
+}
+
+.btn.btn-back:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn-block{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container .btn-blue:hover{
+    background-color: var(--blue-hover);
+    color: var(--white);
+}
+
+.btn-block .btn{
+    margin-right: 30px;
+}
+
+.btn-block .btn:last-child,
+.opening-body .btn-block .btn:last-child{
+    margin-right: 0;
+}
+
+.btn.add-btn{
+    font: 500 16px/20px "lato", sans-serif;
+}
+
+.btn.add-btn:hover i{
+    background: url("../images/Icon-add-circle-white.png") no-repeat center;
+}
+
+.btn.add-btn:hover,
+.btn.dropdown-btn:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn.btn-white,
+.btn.btn-blue{
+    font: 600 16px/20px "lato", sans-serif;
+    width: 150px;
+    justify-content: center;
+}
+
+.btn.btn-blue{
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.add-btn i{
+    background: url("../images/Icon-add-circle.png") no-repeat center;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+
+.btn-blue,
+.link-td .btn-blue{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    color: var(--white);
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 9px 20px 9px;
+    text-transform: capitalize;
+}
+
+.container .btn.btn-grey{
+    background-color: var(--btn-grey);
+    border: 1px solid var(--btn-grey);
+    color: var(--white);
+    border-radius: 6px;
+    font-size: 16px;
+    /* line-height: 20px; */
+    /* padding: 11px 20px 10px; */
+}
+
+.container .btn.btn-grey:hover{
+    background-color: var(--grey-hover);
+}
+
+.btn-blue:hover{
+    background-color: var(--blue-hover);
+}
+.table-body .btn-blue, .table-body .btn-grey, .table-body .btn-white {
+    font: 600 14px/16px "lato", sans-serif;
+    padding: 6px 15px;
+    min-width: unset;
+    max-width: 94px;
+    margin: 0;
+}
+
+.report-table .table-row{
+    align-items: start;
+    display: grid;
+    padding-right: 10px;
+    gap: 0;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.report-table .table-header{
+    margin: 0;
+}
+
+.report-table h3{
+    color: var(--blue);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.report-table h4{
+    color: var(--black);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.report-table h5{
+    color: #1D52B9;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.report-table .date{
+    color: var(--input-color);
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.report-table .table-body .table-outer-row{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.report-table .table-header{
+    margin-bottom: 10px;
+}
+
+.table-block.report-table{
+    margin-bottom: 30px;
+}
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+#review-page .pagination, .pagination {
+    margin-top: 10px;
+    justify-content: center;
+}
+.btn-blue a{
+    color: #fff;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1266px !important;
+    }
+
+}
+@media (max-width: 1200px){
+    #finance-document-page .report-table .table-row {
+        grid-template-columns: 50% 30% 20%;
+    }
+
+    .each-product-block figure{
+        width: 170px;
+        min-width: 170px;
+    }
+
+    .each-product-description-block {
+        width: calc(100% - 388px);
+    }
+}
+
+@media screen and (max-width: 991px){
+    /* ---------finance and documents----------- */
+
+    #finance-document-page .narrow,
+    #finance-document-page .large{
+        width: 100%;
+    }
+
+    #finance-document-page .partial-block{
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #finance-document-page .date-block.btn-block {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #finance-document-page .date-block.btn-block > div,
+    #finance-document-page .date-block.btn-block > button {
+        margin: 0;
+        width: 100%;
+    }
+}
